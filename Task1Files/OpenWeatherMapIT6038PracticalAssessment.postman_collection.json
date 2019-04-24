@@ -1,0 +1,401 @@
+{
+	"info": {
+		"_postman_id": "abcb8178-d4a9-4fbd-ae99-bd1fa7beaaab",
+		"name": "OpenWeatherMapIT6038PracticalAssessment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Task1Question1",
+			"item": [
+				{
+					"name": "1aAuckland",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://api.openweathermap.org/data/2.5/weather?APPID=35c17edb7eff8a52787f15f498c25891&q=Auckland&units=metric",
+							"protocol": "http",
+							"host": [
+								"api",
+								"openweathermap",
+								"org"
+							],
+							"path": [
+								"data",
+								"2.5",
+								"weather"
+							],
+							"query": [
+								{
+									"key": "APPID",
+									"value": "35c17edb7eff8a52787f15f498c25891"
+								},
+								{
+									"key": "q",
+									"value": "Auckland"
+								},
+								{
+									"key": "units",
+									"value": "metric"
+								}
+							]
+						},
+						"description": "Task1Question1a"
+					},
+					"response": []
+				},
+				{
+					"name": "1bWellington",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://api.openweathermap.org/data/2.5/weather?APPID=35c17edb7eff8a52787f15f498c25891&q=Wellington&units=metric",
+							"protocol": "http",
+							"host": [
+								"api",
+								"openweathermap",
+								"org"
+							],
+							"path": [
+								"data",
+								"2.5",
+								"weather"
+							],
+							"query": [
+								{
+									"key": "APPID",
+									"value": "35c17edb7eff8a52787f15f498c25891"
+								},
+								{
+									"key": "q",
+									"value": "Wellington"
+								},
+								{
+									"key": "units",
+									"value": "metric"
+								}
+							]
+						},
+						"description": "Task1Question1b"
+					},
+					"response": []
+				},
+				{
+					"name": "1cChristchurch",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://api.openweathermap.org/data/2.5/weather?APPID=35c17edb7eff8a52787f15f498c25891&q=Christchurch&units=metric",
+							"protocol": "http",
+							"host": [
+								"api",
+								"openweathermap",
+								"org"
+							],
+							"path": [
+								"data",
+								"2.5",
+								"weather"
+							],
+							"query": [
+								{
+									"key": "APPID",
+									"value": "35c17edb7eff8a52787f15f498c25891"
+								},
+								{
+									"key": "q",
+									"value": "Christchurch"
+								},
+								{
+									"key": "units",
+									"value": "metric"
+								}
+							]
+						},
+						"description": "Task1Question1c"
+					},
+					"response": []
+				},
+				{
+					"name": "1dLondon",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://api.openweathermap.org/data/2.5/weather?APPID=35c17edb7eff8a52787f15f498c25891&q=London&units=metric",
+							"protocol": "http",
+							"host": [
+								"api",
+								"openweathermap",
+								"org"
+							],
+							"path": [
+								"data",
+								"2.5",
+								"weather"
+							],
+							"query": [
+								{
+									"key": "APPID",
+									"value": "35c17edb7eff8a52787f15f498c25891"
+								},
+								{
+									"key": "q",
+									"value": "London"
+								},
+								{
+									"key": "units",
+									"value": "metric"
+								}
+							]
+						},
+						"description": "Task1Question1d"
+					},
+					"response": []
+				},
+				{
+					"name": "1eParis",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://api.openweathermap.org/data/2.5/weather?APPID=35c17edb7eff8a52787f15f498c25891&q=Paris&units=metric",
+							"protocol": "http",
+							"host": [
+								"api",
+								"openweathermap",
+								"org"
+							],
+							"path": [
+								"data",
+								"2.5",
+								"weather"
+							],
+							"query": [
+								{
+									"key": "APPID",
+									"value": "35c17edb7eff8a52787f15f498c25891"
+								},
+								{
+									"key": "q",
+									"value": "Paris"
+								},
+								{
+									"key": "units",
+									"value": "metric"
+								}
+							]
+						},
+						"description": "Task1Question1e"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Task1Question2",
+			"item": [
+				{
+					"name": "2aNewYork",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://api.openweathermap.org/data/2.5/weather?APPID=35c17edb7eff8a52787f15f498c25891&lon=-73.99&units=metric&lat=40.73",
+							"protocol": "http",
+							"host": [
+								"api",
+								"openweathermap",
+								"org"
+							],
+							"path": [
+								"data",
+								"2.5",
+								"weather"
+							],
+							"query": [
+								{
+									"key": "APPID",
+									"value": "35c17edb7eff8a52787f15f498c25891"
+								},
+								{
+									"key": "lon",
+									"value": "-73.99"
+								},
+								{
+									"key": "units",
+									"value": "metric"
+								},
+								{
+									"key": "lat",
+									"value": "40.73"
+								}
+							]
+						},
+						"description": "Task1Question2a"
+					},
+					"response": []
+				},
+				{
+					"name": "2bNovara",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://api.openweathermap.org/data/2.5/weather?APPID=35c17edb7eff8a52787f15f498c25891&lon=8.6&units=metric&lat=45.43",
+							"protocol": "http",
+							"host": [
+								"api",
+								"openweathermap",
+								"org"
+							],
+							"path": [
+								"data",
+								"2.5",
+								"weather"
+							],
+							"query": [
+								{
+									"key": "APPID",
+									"value": "35c17edb7eff8a52787f15f498c25891"
+								},
+								{
+									"key": "lon",
+									"value": "8.6"
+								},
+								{
+									"key": "units",
+									"value": "metric"
+								},
+								{
+									"key": "lat",
+									"value": "45.43"
+								}
+							]
+						},
+						"description": "Question2b"
+					},
+					"response": []
+				},
+				{
+					"name": "2cMelbourne",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://api.openweathermap.org/data/2.5/weather?APPID=35c17edb7eff8a52787f15f498c25891&lon=144.96&units=metric&lat=-37.81",
+							"protocol": "http",
+							"host": [
+								"api",
+								"openweathermap",
+								"org"
+							],
+							"path": [
+								"data",
+								"2.5",
+								"weather"
+							],
+							"query": [
+								{
+									"key": "APPID",
+									"value": "35c17edb7eff8a52787f15f498c25891"
+								},
+								{
+									"key": "lon",
+									"value": "144.96"
+								},
+								{
+									"key": "units",
+									"value": "metric"
+								},
+								{
+									"key": "lat",
+									"value": "-37.81"
+								}
+							]
+						},
+						"description": "Question2b"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Task1Question3",
+			"item": [
+				{
+					"name": "3_Log12to13_Lat41to42_Zoom10",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://api.openweathermap.org/data/2.5/box/city?bbox=12,41,13,42,10&APPID=35c17edb7eff8a52787f15f498c25891",
+							"protocol": "http",
+							"host": [
+								"api",
+								"openweathermap",
+								"org"
+							],
+							"path": [
+								"data",
+								"2.5",
+								"box",
+								"city"
+							],
+							"query": [
+								{
+									"key": "bbox",
+									"value": "12,41,13,42,10"
+								},
+								{
+									"key": "APPID",
+									"value": "35c17edb7eff8a52787f15f498c25891"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
